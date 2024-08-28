@@ -1,3 +1,7 @@
+//global scope
+let humanScore = 0;
+let computerScore = 0;
+
 //Function computer choices
 function getComputerChoice() {
     const choices = ["rock", "paper", "scissors"];
@@ -5,6 +9,7 @@ function getComputerChoice() {
     return choices[randomIndex];
 }
 
+//Function human choices
 function getHumanChoice() {
     const choices = prompt("Input your answer here!").toLowerCase();
 
